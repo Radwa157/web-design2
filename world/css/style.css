@@ -1,0 +1,285 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.main-section{
+
+    background-image: url(../images/LINUX\ FILE\ SYSTEM\ \(1\).png);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    height: 600px;
+
+
+}
+
+.bg-white{
+    color: white;
+   width: 70px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-dark{
+    color: #8d8d8d;
+}
+ .container2{
+    margin-top: 10px;
+    
+    width: 57%;
+    color: #8d8d8d;
+ }
+
+ .card1{
+    width:31.5%;
+ }
+
+ .smallcards{
+    width: 30%;
+
+ }
+
+ .socialmedia-icons{
+    padding-left: 9px;
+    margin-top: 17px;
+    margin-left: 17px;
+    
+    border: 1px solid #8d8d8d38;
+    border-style: solid;
+    color: #8d8d8d;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.card2{
+    width: 48.5%;
+}
+ 
+.card3{
+width: 117%;
+}
+
+.world-btn{
+    border: 2px solid #8d8d8d7e;
+    border-radius: 50px;
+    padding: 1%;
+    color: #8d8d8d;
+}
+
+.number-border{
+    border-radius: 50%;
+    border: 4px solid #8d8d8d;
+    font-size: 32px;
+    padding-left: 10px;
+    line-height: 37px;
+    width: 43px;
+    height: 43px
+}
+.position-relative{
+    position: relative;
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.number-border2{
+    border-radius: 50%;
+    border: 4px solid #8d8d8d;
+    border-right-color: blue;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.box-shadow2{
+    box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset;
+}
+
+.d-flexbetween{
+    display: flex; justify-content: space-between;
+}
+
+.bg-grey{
+    color:  #8d8d8d;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.footer-arrow{
+    right: 23%;
+
+}
+
+input{
+    color: #8d8d8d; border-top: 0; border-left: 0; border-right: 0; background-color: #161616; border-bottom: 1px solid #8d8d8d; width: 78%; position: absolute; padding-bottom: 2%;
+}
+
+.Subscribe{
+    margin-bottom: 3%; margin-top: 7%;
+}
+
+.d-flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flexcol{
+    display: flex; flex-direction: column;
+}
+
+.footer3{
+    width: 31%; margin-top: 1%; margin-left: 3%;
+}
+.d-flexrowbetween{
+    display: flex; flex-direction: row; justify-content: space-between; 
+}
+
+.h51{
+    padding: 2%;
+    font-size: 17px;
+    width: 100%;
+    color: black;
+    padding-top: 63%;
+}
+
+.h52{
+    color: #8d8d8d; font-size: 14px; width: 90%;  margin-top: 37px;
+}
+
+.h53{
+    color: #8d8d8d; font-size: 10px; width: 90%;  margin-top: 31px;
+}
+
+.play{
+    line-height: 2;
+        top: 40%;
+        margin-left: 33%;
+        width: 30px;
+        color: #8d8d8d;
+        height: 30px;
+}
+
+hr{
+    width: 100%;
+}
+
+.h54{
+    font-size: 10px; color: #8d8d8d; margin-top: 20px;
+}
+
+.p1{
+    color: #8d8d8d; font-size: 16px;
+}
+
+.p2{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.horcard{
+    margin-left: 2%;  width: 62%
+}
+
+.three-overlay{
+    position: relative; width: 30.6%;
+}
+
+.one-card{
+    color: black;
+
+ margin-left: 23px;
+ margin-right: 23px;
+}
+
+
+.i-social{
+    line-height: 27px; padding-left: 7px;
+}
+
+
+.left-card{
+    margin: 11px;
+    display: flex;
+    font-size: 14px;
+    color: black;
+    flex-direction: column;
+    margin-left: 18px;
+}
+
+
+.left-card2{
+    margin-top: 12px;
+   margin-left: 30px;
+   display: flex;
+   height: 61px;
+   width: 84%
+}
+
+.headline{
+    color: black; margin: 15px;
+}
+
+.first-cards{
+    margin-top: 21px;
+   margin-left: 30px;
+   display: flex;
+   height: 95px;
+   width: 84%
+}
+
+.first-cards2{
+    display: flex;
+   font-size: 17px;
+   color: black;
+   flex-direction: column;
+   margin-left: 18px;
+}
+
+.arrow-left{
+    padding-left: 9px;
+        line-height: 1.5 !important;
+        color: #8d8d8d;
+        border: 1px solid #8d8d8d8c;
+        
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin-top: 40px;
+}
+
+.arrow-right{
+    padding-left: 9px;
+        line-height: 1.5 !important;
+        color: #8d8d8d;
+        border: 1px solid #8d8d8d8c;
+        
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin-top: 40px;
+}

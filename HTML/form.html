@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <H1><b><u>Registration Form</u>
+    </b></form></H1>
+    <form >
+        <label >Name</label>
+        <input type="text" name="firstName" required minlength="3" maxlength="10" > <br> <br>
+       
+        <label > Last Name</label>
+
+        <input type="text" name="lastName" required minlength="3" maxlength="10"> <br><br>
+        <label> Nick Name</label>
+        
+        <input type="text" name="nickName" required> <br><br>
+
+        <label >e-mail</label>
+        
+        <input type="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br> <br>
+        
+        <label> Password</label>
+        
+        <input type="password" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,} "required><br> <br>
+        <fieldset>
+            
+        <label > Date of Birth</label>
+        
+        <input type="date" name="dateOfBirth "required> <br><br>
+    
+        <label>Gender</label>
+        
+        <input type="radio" name="gender" value="Male" required>male</label>
+        
+        <label><input type="radio" name="gender" value="Female" required>Female</label>
+        
+        <label><input type="radio" name="gender" value="Others"required>Others</label>
+    </fieldset>
+    </label><br><br>
+      
+    <label>Mobile</label>
+    
+    <input type="number" name="number"required><br><br>
+    <label>Adress</label>
+   
+    <textarea required>Adress</textarea><br><br>
+    
+<button>Submit</button>
+        <button>Reset</button>
+
+    </form>
+</body>
