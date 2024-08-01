@@ -1,8 +1,9 @@
 let userForm=document.getElementById('userForm')
 let divContainer= document.getElementById('divContainer')
+let users = JSON.parse(localStorage.getItem('users')) || [];
 
 
-let users=[]
+
 function adduser(userName,userBalance,userId){
     let user={
             name:userName,
@@ -13,6 +14,8 @@ function adduser(userName,userBalance,userId){
     users.push(user)
     console.table(users)
     showusers(user)
+   
+    saveUsersToLocalStorage();
 }
 
 
@@ -22,6 +25,7 @@ function editUser(div,i){
     div.classList.add('alert-success')
     users[i].isCompleted= true
     console.table(users)
+    saveUsersToLocalStorage();
     // users[objIndex].balance=prompt('enter new balance')
     // console.log("after update: ", user[objIndex])
 }
@@ -33,6 +37,7 @@ function removeUser(div,i){
 users.splice(i,1)
     console.table(users)
     showusers()
+    saveUsersToLocalStorage();
 
 }
 
@@ -106,10 +111,26 @@ localStorage.removeItem('userName')
 
 
 
-localStorage.setItem('usersInfo' , JSON.stringify(accounts))
+// localStorage.setItem('usersInfo' , JSON.stringify(accounts))
 
-let usersLocalStorage = JSON.parse(localStorage.getItem('usersInfo'))
+// let usersLocalStorage = JSON.parse(localStorage.getItem('usersInfo'))
 
-// usersLocalStorage.push()
+
+
+function saveUsersToLocalStorage() {
+    localStorage.setItem('users', JSON.stringify(users));
+}
+
+// userForm.addEventListener('submit', function (e) {
+//     e.preventDefault();
+//     adduser(e.target.elements.userName.value, e.target.elements.userBalance.value, e.target.elements.userId.value);
+// });
+
+let usersLocalStorage = JSON.parse(localStorage.getItem('users'));
+if (usersLocalStorage) {
+    users = usersLocalStorage;
+    showusers();
+}
+
 
 console.log(usersLocalStorage)
