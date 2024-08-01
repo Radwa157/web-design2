@@ -3,7 +3,7 @@ let divContainer= document.getElementById('divContainer')
 
 
 let users=[]
-function adduser(userName,userBalance, userId){
+function adduser(userName,userBalance,userId){
     let user={
             name:userName,
             balance: userBalance,
